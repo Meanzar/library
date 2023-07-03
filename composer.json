@@ -1,0 +1,22 @@
+{
+    "name": "meanz3/open-source",
+    "description": "open source",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Meanz3\\OpenSource\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Meanzar",
+            "email": "romain.danizel.pro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    }
+}
